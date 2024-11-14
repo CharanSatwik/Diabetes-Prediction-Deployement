@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-loaded_model = pickle.load(open("F:/ML A-Z/Diabetes_deploy/trained_model.sav",'rb'))
+loaded_model = pickle.load(open("trained_model.sav",'rb'))
 
 def diabetes_pred(input_data):
     
